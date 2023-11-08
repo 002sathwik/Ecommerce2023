@@ -1,0 +1,677 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Gabarito&family=Kanit:wght@300&family=Merriweather:ital,wght@1,300&family=Mukta:wght@600&family=Noto+Sans+Bengali&family=Oswald:wght@600&family=Poppins:ital,wght@0,400;1,300&family=Roboto:wght@300&family=Teko:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Gabarito&family=Kanit:wght@300&family=Merriweather:ital,wght@1,300&family=Mukta:wght@600&family=Oswald:wght@600&family=Poppins:ital,wght@0,400;1,300&family=Roboto:wght@300&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito&family=Kanit:wght@300&family=Merriweather:ital,wght@1,300&family=Mukta:wght@600&family=Oswald:wght@600&family=Poppins:ital,wght@0,400;1,300&family=Roboto:wght@300&family=Teko:wght@300&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* 
+font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Gabarito', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Teko', sans-serif; */
+
+/* nav bar css */
+.navbar {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px rgb(116, 115, 115);
+  background-color: rgb(99, 99, 118);
+  --webkit-box-shadow: 0 7px 8px rgb(253, 248, 248);
+  padding: 14px;
+}
+.navbar ul li {
+  padding: 4px;
+}
+
+.navbar-brand {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: bolder;
+  font-size: 38px;
+  color: bisque;
+}
+.e {
+  width: 52px;
+  height: 52px;
+  padding: 2px;
+}
+
+/* //----------footer code---------------------------// */
+
+/* footer.css */
+
+/* Footer Background */
+.fot {
+  background-color: #000; /* Dark black background color */
+  color: #fff; /* Dark white text color */
+}
+
+/* Social Media Links */
+.text-reset {
+  color: #fff; /* Dark white text color */
+}
+
+/* Copyright Background */
+.p-4 {
+  background-color: #111; /* Slightly lighter black background color */
+  color: #fff; /* Dark white text color */
+}
+.footer {
+  color: #fff;
+}
+
+/* Uppercase Text */
+.me-5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+}
+/* 
+//---------------------pagenotfound-------------------------// */
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.col-md-6 {
+  text-align: center;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underlines from links */
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button-link:hover {
+  background-color: #0056b3; /* Darker blue background color on hover */
+}
+.four {
+  font-size: 150px;
+  font-weight: 900;
+}
+.oops {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+/* //---------------------------Contac page -----------------------------// */
+
+.container2 {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #e2dddd;
+  border: 1px solid #474646;
+  min-height: 60vh;
+}
+
+/* Style the headings */
+h2 {
+  color: #060606;
+  font-size: 35px;
+  font-family: "Dela Gothic One", sans-serif;
+}
+
+/* Style the contact information */
+address {
+  font-size: 30px;
+  color: #131313;
+  margin-top: 50px;
+  font-family: "Kanit", sans-serif;
+}
+strong {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* Style the form */
+form {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #090909;
+}
+
+/* Style form fields and labels */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+
+/* //---------aboutpage---------------// */
+.aboutp {
+  font-size: 20px;
+  font-family: "Teko", sans-serif;
+  padding-top: 10px;
+}
+/* //-----------------------Login_Form---------------------------------// */
+.loginfrom {
+  height: 100vh;
+}
+.loginfrom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+.loginfrom .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginfrom.col-4 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginfrom {
+  display: flex;
+  flex-direction: column; /* Set the flex direction to column */
+  justify-content: space-between; /* Spread content vertically */
+  align-items: center;
+  height: 100vh;
+  padding: 0px;
+}
+
+.loginfrom img {
+  width: 70px;
+  height: 550px;
+  align-self: center; /* Center the image vertically within the form */
+  margin-bottom: 30px; /* Add space below the image */
+  margin-top: 30px; /* Add space below the image */
+}
+
+.loginfrom form {
+  width: 350px;
+  max-height: 320px;
+  padding: 10px;
+  margin-bottom: 30px; /* Add space below the image */
+  margin-top: 30px;
+}
+
+.loginfrom.form-group {
+  margin-bottom: 20px;
+}
+.forgotpass {
+  margin-top: 10px;
+  font-family: "Oswald", sans-serif;
+  border: 1px solid black;
+}
+
+/* //-----------------------Register_Form---------------------------------// */
+form {
+  text-align: left;
+  width: 80vh;
+  height: 90vh;
+  border: 2px solid #131313;
+  box-shadow: 2px 3px 8px black;
+}
+.col-4.regHeading {
+  text-align: center;
+}
+.regHeading {
+  font-weight: bold;
+  font-family: "Dela Gothic One", sans-serif;
+}
+.Registerform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.Registerfrom .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Registerfrom .col-4 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Registerform {
+  display: flex;
+  flex-direction: column; /* Set the flex direction to column */
+  justify-content: space-between; /* Spread content vertically */
+  align-items: center;
+  height: 100vh;
+  padding: 2px;
+}
+
+.Registerfrom img {
+  width: 70px;
+  height: 480px;
+  align-self: center; /* Center the image vertically within the form */
+  margin-bottom: 50px; /* Add space below the image */
+  margin-top: 50px; /* Add space below the image */
+}
+
+.Registerfrom form {
+  width: 350px;
+  max-height: 500px;
+  padding: 10px;
+  margin-bottom: 50px; /* Add space below the image */
+  margin-top: 50px;
+}
+
+.Registerfrom .form-group {
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 30px; /* Increase space between the form and footer */
+}
+.rg {
+  font-family: "Oswald", sans-serif;
+  border: 1px solid black;
+  width: 130px;
+}
+
+/* Your existing CSS styles here */
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .Registerform {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .Registerfrom img {
+    width: 50px; /* Adjust image width for smaller screens */
+    height: auto; /* Maintain image aspect ratio */
+    margin-bottom: 30px; /* Adjust space below the image */
+    margin-top: 30px; /* Adjust space above the image */
+  }
+
+  .Registerfrom form {
+    width: 100%; /* Expand form to full width for smaller screens */
+    max-height: none; /* Remove max-height for smaller screens */
+    padding: 10px; /* Adjust form padding for smaller screens */
+    margin-bottom: 30px; /* Adjust space below the form */
+    margin-top: 30px; /* Adjust space above the form */
+  }
+
+  .Registerfrom .form-group {
+    margin-bottom: 10px; /* Adjust form-group margin for smaller screens */
+  }
+}
+
+/* Additional media queries for other screen sizes can be added here */
+/* ///-------------------fprgot page----------------------/// */
+form {
+  text-align: left;
+  width: 80vh;
+  height: 90vh;
+  border: 5px solid #131313;
+  box-shadow: 2px 3px 8px black;
+}
+.col-4.regHeading {
+  text-align: center;
+}
+.regHeading {
+  font-weight: bold;
+  font-family: "Dela Gothic One", sans-serif;
+}
+.Forgotfrom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.Forgotfrom .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Forgotfrom .col-4 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Forgotfrom {
+  display: flex;
+  flex-direction: column; /* Set the flex direction to column */
+  justify-content: space-between; /* Spread content vertically */
+  align-items: center;
+  height: 100vh;
+  padding: 2px;
+}
+
+.Forgotfrom img {
+  width: 100px;
+  height: 480px;
+  align-self: center; /* Center the image vertically within the form */
+  margin-bottom: 50px; /* Add space below the image */
+  margin-top: 50px; /* Add space below the image */
+}
+
+.Forgotfrom form {
+  width: 350px;
+  max-height: 400px;
+  padding: 30px;
+  margin-bottom: 50px; /* Add space below the image */
+  margin-top: 50px;
+}
+
+.Forgotfrom .form-group {
+  margin-bottom: 20px;
+}
+/* //----------------------------------dropdown------------------------------------------// */
+/* Style the dropdown menu */
+.dropdown-menu {
+  background-color: black; /* Background color */
+  color: white; /* Text color */
+}
+
+/* Style the dropdown items */
+.dropdown-item {
+  color: white; /* Text color for dropdown items */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Change styles on hover */
+.dropdown-item:hover {
+  background-color: white !important; /* Background color on hover */
+  color: black !important; /* Text color on hover */
+}
+/* Style the dropdown toggle when it's open */
+.navbar .nav-link.dropdown-toggle.show {
+  background-color: black; /* Background color when open */
+  color: white; /* Text color when open */
+}
+
+/* //------------------------------admin dashbaord--------------------------// */
+.adminmenu {
+  border: 2px solid black;
+}
+.adminname {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  background-color: aqua;
+}
+.adminmenulist {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+.admindetiles {
+  border: 2px solid black;
+  text-align: left;
+  height: 162px;
+  text-align: center;
+}
+.details {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  background-color: aqua;
+  text-transform: uppercase;
+}
+/* //-------------------------cataegoryform--------------------------------------------// */
+.categoryform {
+  border-color: #090909;
+  border: 0.1px solid black;
+  height: 130px !important;
+  box-shadow: none;
+}
+/* //-------------------------Productform--------------------------------------------// */
+.productform {
+  border-color: #090909;
+  border: 0.1px solid black;
+  height: fit-content;
+  box-shadow: none;
+}
+/* //-------------------------------product page-------------------------------------// */
+.ProductCard {
+  text-align: start;
+  text-decoration: none !important;
+  color: #131313;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+
+.cname {
+  color: #060606;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+}
+.price {
+  color: rgb(244, 11, 58);
+}
+
+.updatelable {
+  text-align: start;
+}
+
+/* //--------------------------------Home-Page------------------------------------------------------// */
+
+.homeCard {
+  text-align: start;
+  text-decoration: none !important;
+  color: #131313;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.homeCard:hover {
+  text-transform: none;
+}
+
+.cname {
+  color: #060606;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+}
+.price {
+  color: rgb(244, 11, 58);
+}
+
+.updatelable {
+  text-align: start;
+}
+.addcartbtn {
+  border: #000;
+}
+.maincontainer {
+  border: 1px solid black;
+}
+.mainrow {
+  border: 1px solid black;
+}
+.filter{
+  font-size: 28px !important;
+}
+.category{
+  font-size: 25px !important;
+}
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.circular-image {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Prevents the image from stretching */
+}
+
+.testimonial-content {
+  padding: 20px; /* Adjust the spacing as needed */
+  text-align: center;
+  color: #060606;
+}
+
+.aceele-infos {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.awnor-infos {
+  font-weight: bold;
+}
+
+/* //---------------------------------------searchform------------------------------------------// */
+.searchfrom {
+  height: 8px !important;
+  width: 250px !important;
+  padding: 0%;
+  margin: 0%;
+  color: #000;
+}
+/* //------------------------------------------cartpage----------------------------------------------------// */
+
+.cartcard {
+  border: 2px solid black !important;
+  margin-top: 2px;
+}
+.imagecontainer {
+  border: 1px solid black !important;
+}
+.productrow {
+  margin-left: 11%;
+}
+.firstproductrow {
+  background-color: #faf5f5;
+}
+.pricedetilers {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-align: start !important;
+}
+.prereu {
+  font-size: 19px;
+  text-align: start !important;
+  font-family: "Kanit", sans-serif;
+}
+.result {
+  font-weight: bold;
+}
+.total {
+  text-align: start !important;
+}
+.cart-container {
+  height: 400px; /* Set the desired height */
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0px -5px 10px rgba(125, 123, 123, 0.2);
+}
+
+.order-button-container {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end; /* Align the button to the end */
+  padding: 10px;
+  background-color: rgb(235, 231, 229);
+  border-top: 1px solid #ccc;
+}
+.but {
+  background-color: orangered !important;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  font-size: 25px;
+  border: 1px solid black !important;
+}
+
+/* ///-----------------------profile page=--------------------------// */
+.Mainnamecontainer {
+  background-color: antiquewhite;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+}
+.nextsection {
+  background-color: antiquewhite;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  padding: 2px;
+}
+.profileform {
+  border: none;
+  text-decoration: none;
+  box-shadow: 2px 3px 8px rgb(223, 221, 221) !important;
+  text-align: start;
+}
+.pi {
+  font-size: 25px;
+}
+.inro {
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 3px 3px;
+}
+.userinfo {
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  text-align: start;
+}
